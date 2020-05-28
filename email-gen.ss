@@ -1,4 +1,3 @@
-
 /* ==========================================================================
    #FONT
    ========================================================================== */
@@ -131,7 +130,7 @@ button {
    #PAGE WRAPPER
    ========================================================================== */
 .page-wrapper {
-    min-height: 100vh;
+    min-height: 20vh;
 }
 
 body {
@@ -194,11 +193,7 @@ h6 {
 }
 
 .bg-gra-02 {
-    background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
-    background: -webkit-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-    background: -moz-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-    background: -o-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-    background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
+    background: linear-gradient(to top right, #6e36da 0%, #6e36da 100%);
 }
 
 /* ==========================================================================
@@ -209,7 +204,7 @@ h6 {
 }
 
 .p-t-130 {
-    padding-top: 130px;
+    padding-top: 18px;
 }
 
 .p-t-180 {
@@ -233,7 +228,7 @@ h6 {
 }
 
 .p-b-100 {
-    padding-bottom: 100px;
+    padding-bottom: 18px;
 }
 
 .m-r-45 {
@@ -256,7 +251,7 @@ h6 {
 }
 
 .wrapper--w680 {
-    max-width: 680px;
+    max-width: 95%;
 }
 
 /* ==========================================================================
@@ -304,7 +299,7 @@ h6 {
     }
 
 .btn--blue {
-    background: #4272d7;
+    background: #d74942;
 }
 
     .btn--blue:hover {
