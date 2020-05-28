@@ -3,11 +3,11 @@
    #FONT
    ========================================================================== */
 .font-robo {
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+    font-family: "Tajawal", sans-serif;
 }
 
 .font-poppins {
-    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-family: ""Tajawal", sans-serif;
 }
 
 /* ==========================================================================
@@ -135,7 +135,7 @@ button {
 }
 
 body {
-    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-family: "Tajawal", sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
@@ -263,7 +263,7 @@ h6 {
     cursor: pointer;
     font-size: 18px;
     color: #fff;
-    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-family: "Tajawal", sans-serif;
 }
 
 .btn--radius {
@@ -320,7 +320,7 @@ input[type="date" i] {
 
 .table-condensed td, .table-condensed th {
     font-size: 14px;
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+    font-family: "Tajawal", sans-serif;
     font-weight: 400;
 }
 
@@ -667,7 +667,7 @@ input {
     line-height: 140%;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-family: "Tajawal", sans-serif;
 }
 /* ==========================================================================
    #Miscellaneous
