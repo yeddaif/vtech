@@ -3,11 +3,11 @@
    #FONT
    ========================================================================== */
 .font-robo {
-    font-family: "Tajawal", sans-serif;
+    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
 }
 
 .font-poppins {
-    font-family: ""Tajawal", sans-serif;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
 }
 
 /* ==========================================================================
@@ -135,7 +135,7 @@ button {
 }
 
 body {
-    font-family: "Tajawal", sans-serif;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
@@ -192,8 +192,14 @@ h6 {
     background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
     background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
 }
+
 .bg-gra-02 {
-    background: -webkit-gradient(linear, left bottom, right top, from(#6e36da), to(#6e36da));
+    background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
+    background: -webkit-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
+    background: -moz-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
+    background: -o-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
+    background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
+}
 
 /* ==========================================================================
    #SPACING
@@ -226,6 +232,10 @@ h6 {
     padding-top: 30px;
 }
 
+.p-b-100 {
+    padding-bottom: 100px;
+}
+
 .m-r-45 {
     margin-right: 45px;
 }
@@ -246,7 +256,7 @@ h6 {
 }
 
 .wrapper--w680 {
-    max-width: 95%;
+    max-width: 680px;
 }
 
 /* ==========================================================================
@@ -263,7 +273,7 @@ h6 {
     cursor: pointer;
     font-size: 18px;
     color: #fff;
-    font-family: "Tajawal", sans-serif;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
 }
 
 .btn--radius {
@@ -294,7 +304,7 @@ h6 {
     }
 
 .btn--blue {
-    background: #57b846;
+    background: #4272d7;
 }
 
     .btn--blue:hover {
@@ -320,7 +330,7 @@ input[type="date" i] {
 
 .table-condensed td, .table-condensed th {
     font-size: 14px;
-    font-family: "Tajawal", sans-serif;
+    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
     font-weight: 400;
 }
 
@@ -647,6 +657,12 @@ input {
         padding-bottom: 65px;
     }
 
+@media (max-width: 767px) {
+    .card-4 .card-body {
+        padding: 50px 40px;
+    }
+}
+
 /* ==========================================================================
    #Emails
    ========================================================================== */
@@ -667,7 +683,7 @@ input {
     line-height: 140%;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-family: "Tajawal", sans-serif;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
 }
 /* ==========================================================================
    #Miscellaneous
